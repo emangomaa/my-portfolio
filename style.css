@@ -11,13 +11,39 @@ a{
     color:black;
     text-decoration:none
 }
-h2,h3{
+h1,h2,h3{
     line-height:1.1;
-    margin:26 0;
+    font-weight: bold;
 }
-p{
+.navbar{
+    margin-bottom:124px;
+}
+.navbar .navbar-brand span{
+    font-size: 28px;
+    font-family: 'Fredoka One', 'cursive';
+}
+.navbar .nav-item{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.home-section h1{
+    font-size:56px;
+    font-weight: bold;
+}
+.home-section h2{
+    font-size:22px;
+    letter-spacing: 4px;
+}
+.home-section p{
+    color: rgb(99, 96, 96);
     line-height:1.6;
-    margin:44px 0;
+    margin-top: 56px;
+}
+.home-section a{
+    text-decoration: underline;
+}
+.home-section .work-links{
+    margin-top: 44px;
 }
 a:hover{
     color:chocolate;
@@ -25,12 +51,13 @@ a:hover{
 i{
    color:rgb(99, 96, 96);
 }
-.bi-linkedin:hover{
+
+/* .bi-linkedin:hover{
     color:#0a66c2;
 }
 .bi-github:hover{
     color:#000000
-}
+} */
 /* start navbar */
 .navbar-light .navbar-nav .nav-link.active{
     color:chocolate;
