@@ -32,6 +32,7 @@ a{
     border-radius: 50%;
     margin:10px;
 }
+
 /* start home section */
 .home-section h1{
     font-size:64px;
@@ -71,6 +72,16 @@ i{
     background-color:chocolate;
     color:white;
 }
+
+/* start capabities section */
+.capablities{
+    background-color:rgb(243 242 242);
+}
+.capablities .capablities-content{
+    background-color:#fff;
+    border-radius: 8px;
+}
+/* end capablities section */
 
 /* start tasks section */
 .tasks h2{
@@ -166,14 +177,3 @@ i{
 .about{
     height:500px;
 }
-
-
- /* start capabilities section */
- .capablities-content{
-     border:2px solid #bbb;
-     background-color: #eee;
-     box-shadow:2px 5px 20px rgb(145, 135, 135);
- }
- .capablities-content h3{
-     text-align:center;
- }
