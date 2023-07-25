@@ -1,0 +1,461 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navbar section */
+.navbar .navbar-brand span{
+    font-size: 28px;
+    font-family: 'Fredoka One', 'cursive';
+}
+.navbar .nav-item{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+ .navbar-nav .nav-link.active{
+    color: chocolate !important;
+    font-weight: bold;
+}
+.navbar .navbar-brand img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin:10px;
+}
+.navbar .navbar-nav img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+/* .navbar .navbar-nav img:focus{
+    padding: 5px;
+    border:5px solid chocolate
+} */
+/* start home section */
+.home-section{
+    margin-top: 64px;
+}
+.home-section h1{
+    font-size:64px;
+    font-weight: 500;
+}
+.home-section h2{
+    font-size:32px;
+    letter-spacing: 3px;
+}
+.home-section p{
+    color: rgb(99, 96, 96);
+    line-height:1.6;
+    margin-top: 56px;
+    font-size: 20px;
+}
+.home-section .links{
+
+    margin-top: 44px;
+display: flex;
+gap: 16px;
+}
+a:hover{
+    color:chocolate;
+
+}
+i{
+   color:rgb(99, 96, 96);
+}
+.home-section .project-btn,.home-section .cv-btn{
+    color:chocolate;
+    border:1px solid  chocolate;
+    outline:none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 16px !important;
+    font-weight: 500;
+text-decoration: none;
+}
+
+.home-section .project-btn:hover{
+    background-color:chocolate;
+    color:white;
+}
+.home-section .cv-btn:hover{
+    background-color:chocolate;
+    color:white;
+}
+.home-section .lottie{
+    width: 35vw;
+    height: 35vw;
+    margin: auto;
+}
+/* start capabities section */
+.capablities{
+    background-color:rgb(243 242 242);
+}
+.capablities h2{
+    font-size:44px;
+    font-weight:500;
+    line-height:1.1;
+    padding: 70px 0 30px;
+}
+.capablities .capablities-content{
+    background-color:#fff;
+    border-radius: 8px;
+}
+/* end capablities section */
+
+/* start tasks section */
+
+.tasks h2{
+    font-size:44px;
+    font-weight:500;
+    line-height:1.1;
+    padding-top: 120px;
+}
+.tasks h4{
+    font-size:20px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    padding: 12px;
+}
+.tasks h3{
+    font-size:24px;
+    letter-spacing:2px;
+    font-weight:bold;
+}
+.tasks p{
+    font-size:20px;
+    line-height:1.6;
+}
+.img-box{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    transition:all 1s;
+}
+.tasks .img-box:hover{
+    transform:scale(1.2) 
+}
+.tasks .lottie{
+    width: 35vw;
+    height: 35vw;
+    margin: auto;
+}
+/* end tasks section */
+
+/* start skills section */
+.skills{
+    background-color: rgb(243 242 242);
+}
+.skills h2{
+    font-size:44px;
+    font-weight:500;
+    line-height:1.1;
+    padding-top: 120px;
+}
+.skills h4{
+    font-size:20px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    padding: 12px;
+}
+.skill-box{
+    background-color: #fff;
+    text-align: center;
+    padding: 6px 12px;
+    border-radius: 8px;
+    transition:all 1s;
+}
+.skill-box:hover{
+    transform: scale(1.1);
+}
+
+.skill-box h3{
+    font-size: 16px;
+    font-weight:bold;
+}
+/* end skills section */
+/* projects section */
+.projects{
+    margin-top: 64px;
+}
+.projects h2{
+    font-size:44px;
+    font-weight:500;
+}
+
+.project{
+    border:1px solid #ccc;
+    border-radius: 10px;
+    background-color:#eee;
+}
+.project-img img{
+    width: 100%;
+    height: 100%;
+    border:1px solid #ccc;
+    border-radius: 10px;
+    transition:2s;
+}
+
+.project-img img:hover{
+    transform: scale(.9);
+}
+ /*end projects section */ 
+
+
+/* about section */
+.about{
+    background-image: url('../public/assets/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 90vh;
+    color: white;
+    position: relative;
+}
+.about h2{
+    font-size:44px;
+    font-weight:500;
+    line-height:1.1;
+    padding: 50px 0;
+}
+.about p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #212529b6;
+}
+.about .row{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/* start contact section */
+.contact h2{
+    font-size:44px;
+    font-weight:500;
+    line-height:1.1;
+    padding: 120px 0 0;
+}
+
+form label{
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    padding-bottom: 6px;
+    color: #6b6b6b;
+}
+form input,form textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 16px;
+    margin-bottom: 24px;
+    background-color: #f5f5f5;
+}
+#submit-btn{
+    background-color:#ff5361;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+    outline: none;
+    padding: 14px;
+    cursor: pointer;
+    width: 125px;
+}
+#submit-btn:hover{
+    background-color: #fb727d;
+}
+.contact .lottie{
+    width: 35vw;
+    height: 35vw;
+    margin: auto;
+}
+.icon{
+    font-size: 20px;
+    color: white
+}
+
+/* start footer style */
+.footer{
+    background-color: rgb(0, 0, 0);
+    font-size: 14px;
+    color: white;
+    padding: 24px;
+}
+
+/* media query  of navbar*/
+@media (max-width:768px){
+    .navbar .navbar-brand span{
+        font-size: 20px;
+    }
+    .navbar .navbar-brand img{
+        width: 35px;
+        height: 35px;
+    }
+    .navbar .nav-item{
+        font-size: 16px;
+    }
+}
+
+/* media query of home section */
+@media(max-width:992px) {
+    .home-section h1{
+        font-size:44px;
+    }
+    .home-section h2{
+        font-size:24px;
+        letter-spacing: 2px;
+    }
+    .home-section p{
+        margin-top: 44px;
+        font-size: 18px;
+    }
+    .home-section .project-btn,.home-section .cv-btn{
+        font-size: 20px;
+    
+    }
+    
+}
+@media(max-width:768px){
+    .home-section h1{
+        font-size:36px;
+    }
+    .home-section h2{
+        font-size:20px;
+    }
+    .home-section p{
+        font-size: 14px;
+    }
+    .home-section .project-btn,.home-section .cv-btn{
+        font-size: 16px;
+    
+    }
+    .home-section .lottie{
+        width: 45vw;
+        height: 45vw;
+    }
+}
+
+/* media query for capablities section */
+
+@media (max-width:992px) {
+    .capablities h2{
+        font-size:32px;
+    }
+    .capablities h3{
+        font-size:24px;
+    }
+}
+@media (max-width:768px) {
+    .capablities h2{
+        font-size:28px;
+    }
+    .capablities h3{
+        font-size:20px;
+    }
+    .capablities li{
+        font-size: 14px;
+    }
+}
+@media (min-width:768px) {
+    .capablities li{
+        font-size: 18px;
+    }
+}
+
+/* media query for tasks section */
+@media (max-width:992px) {
+    .tasks h2{
+        font-size:32px;
+    }
+    .tasks h3{
+        font-size:20px;
+    }
+    .tasks p{
+        font-size: 18px;
+    }
+    .tasks .lottie{
+        width: 45vw;
+        height: 45vw;
+    }
+}
+@media (max-width:768px) {
+    .tasks h2{
+        font-size:28px;
+    }
+    .tasks p{
+        font-size: 16px;
+    }
+}
+
+/* media query for skills section */
+@media (max-width:992px) {
+    .skills h2{
+        font-size:32px;
+    }
+}
+
+/* media query for projects section */
+@media (max-width:992px) {
+    .projects h2{
+        font-size: 32px;
+    }
+    .projects h3{
+        font-size: 24px;
+    }
+}
+@media (max-width:768px) {
+    .projects h2{
+        font-size: 28px;
+    }
+    .projects h3{
+        font-size: 20px;
+    }
+}
+
+/* media query for about section */
+@media (max-width:992px) {
+    .about h2{
+        font-size: 32px;
+    }
+    .about p{
+        font-size: 16px;
+    }
+}
+@media (max-width:768px) {
+    .about h2{
+        font-size: 28px;
+    }
+}
+
+/* add media query for contact section */
+@media (max-width:992px) {
+    .contact h2{
+        font-size: 32px;
+    }
+    .contact .lottie{
+        width: 45vw;
+        height: 45vw;
+    }
+}
+@media (max-width:768px) {
+    .contact h2{
+        font-size: 28px;
+    }
+    .contact .row:first-of-type{
+        flex-direction: column-reverse;
+    }
+}
+
+/* media query for footer section */
+@media (max-width:768px) {
+    .footer{
+        font-size: 14px;
+    }
+}
